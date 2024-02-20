@@ -1,0 +1,133 @@
+2021-08-04 11:47:38:742 [Appium] Welcome to Appium v1.17.1
+2021-08-04 11:47:38:744 [Appium] Non-default server args:
+2021-08-04 11:47:38:745 [Appium]   logFile: /Users/nasar/Downloads/Appium_Andriod_Automation/AppiumLog.txt
+2021-08-04 11:47:38:745 [Appium]   localTimezone: true
+2021-08-04 11:47:38:801 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-08-04 11:47:39:103 [HTTP] --> GET /wd/hub/status
+2021-08-04 11:47:39:103 [HTTP] {}
+2021-08-04 11:47:39:108 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-08-04 11:47:39:109 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2021-08-04 11:47:39:133 [HTTP] <-- GET /wd/hub/status 200 20 ms - 68
+2021-08-04 11:47:39:135 [HTTP] 
+2021-08-04 11:47:40:502 [HTTP] --> POST /wd/hub/session
+2021-08-04 11:47:40:502 [HTTP] {"desiredCapabilities":{"app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","automationName":"Uiautomator2","platformName":"Android","deviceName":"Nasar_Emulator"},"capabilities":{"firstMatch":[{"appium:app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","appium:automationName":"Uiautomator2","appium:deviceName":"Nasar_Emulator","platformName":"android"}]}}
+2021-08-04 11:47:40:503 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","automationName":"Uiautomator2","platformName":"Android","deviceName":"Nasar_Emulator"},null,{"firstMatch":[{"appium:app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","appium:automationName":"Uiautomator2","appium:deviceName":"Nasar_Emulator","platformName":"android"}]}]
+2021-08-04 11:47:40:503 [BaseDriver] Event 'newSessionRequested' logged at 1628057860503 (11:47:40 GMT+0530 (India Standard Time))
+2021-08-04 11:47:41:134 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+2021-08-04 11:47:41:136 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-08-04 11:47:41:137 [BaseDriver] Creating session with W3C capabilities: {
+2021-08-04 11:47:41:138 [BaseDriver]   "alwaysMatch": {
+2021-08-04 11:47:41:138 [BaseDriver]     "platformName": "android",
+2021-08-04 11:47:41:139 [BaseDriver]     "appium:app": "/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk",
+2021-08-04 11:47:41:139 [BaseDriver]     "appium:automationName": "Uiautomator2",
+2021-08-04 11:47:41:139 [BaseDriver]     "appium:deviceName": "Nasar_Emulator"
+2021-08-04 11:47:41:139 [BaseDriver]   },
+2021-08-04 11:47:41:140 [BaseDriver]   "firstMatch": [
+2021-08-04 11:47:41:140 [BaseDriver]     {}
+2021-08-04 11:47:41:140 [BaseDriver]   ]
+2021-08-04 11:47:41:140 [BaseDriver] }
+2021-08-04 11:47:41:149 [BaseDriver] Session created with session id: 5973e829-78e3-4fae-a1a3-786599c996a0
+2021-08-04 11:47:41:153 [BaseDriver] Using local app '/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk'
+2021-08-04 11:47:41:154 [UiAutomator2] Checking whether app is actually present
+2021-08-04 11:47:41:156 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2021-08-04 11:47:41:169 [UiAutomator2] Deleting UiAutomator2 session
+2021-08-04 11:47:41:171 [BaseDriver] Event 'newSessionStarted' logged at 1628057861171 (11:47:41 GMT+0530 (India Standard Time))
+2021-08-04 11:47:41:265 [W3C] Encountered internal error running command: Error: Could not find 'adb' in PATH. Please set the ANDROID_HOME or ANDROID_SDK_ROOT environment variables to the correct Android SDK root directory path.
+2021-08-04 11:47:41:266 [W3C]     at ADB.getBinaryFromPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:140:11)
+2021-08-04 11:47:41:266 [W3C]     at ADB.getSdkBinaryPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:40:10)
+2021-08-04 11:47:41:266 [W3C]     at ADB.getAdbWithCorrectAdbPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/adb-commands.js:35:26)
+2021-08-04 11:47:41:266 [W3C]     at Function.createADB (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:67:3)
+2021-08-04 11:47:41:266 [W3C]     at Object.createBaseADB (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:71:10)
+2021-08-04 11:47:41:267 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:168:15)
+2021-08-04 11:47:41:267 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:290:26)
+2021-08-04 11:47:41:267 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:212:7)
+2021-08-04 11:47:41:267 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2021-08-04 11:47:41:278 [W3C] Destroying socket connection
+2021-08-04 11:47:41:278 [HTTP] <-- POST /wd/hub/session 500 776 ms - 791
+2021-08-04 11:47:41:279 [HTTP] 
+2021-08-04 11:47:41:405 [HTTP] --> POST /wd/hub/session
+2021-08-04 11:47:41:406 [HTTP] {"desiredCapabilities":{"app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","automationName":"Uiautomator2","platformName":"Android","deviceName":"Nasar_Emulator"},"capabilities":{"firstMatch":[{"appium:app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","appium:automationName":"Uiautomator2","appium:deviceName":"Nasar_Emulator","platformName":"android"}]}}
+2021-08-04 11:47:41:407 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","automationName":"Uiautomator2","platformName":"Android","deviceName":"Nasar_Emulator"},null,{"firstMatch":[{"appium:app":"/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk","appium:automationName":"Uiautomator2","appium:deviceName":"Nasar_Emulator","platformName":"android"}]}]
+2021-08-04 11:47:41:407 [BaseDriver] Event 'newSessionRequested' logged at 1628057861407 (11:47:41 GMT+0530 (India Standard Time))
+2021-08-04 11:47:41:409 [Appium] Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+2021-08-04 11:47:41:411 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-08-04 11:47:41:412 [BaseDriver] Creating session with W3C capabilities: {
+2021-08-04 11:47:41:412 [BaseDriver]   "alwaysMatch": {
+2021-08-04 11:47:41:412 [BaseDriver]     "platformName": "android",
+2021-08-04 11:47:41:413 [BaseDriver]     "appium:app": "/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk",
+2021-08-04 11:47:41:413 [BaseDriver]     "appium:automationName": "Uiautomator2",
+2021-08-04 11:47:41:413 [BaseDriver]     "appium:deviceName": "Nasar_Emulator"
+2021-08-04 11:47:41:413 [BaseDriver]   },
+2021-08-04 11:47:41:413 [BaseDriver]   "firstMatch": [
+2021-08-04 11:47:41:413 [BaseDriver]     {}
+2021-08-04 11:47:41:414 [BaseDriver]   ]
+2021-08-04 11:47:41:414 [BaseDriver] }
+2021-08-04 11:47:41:421 [BaseDriver] Session created with session id: 4d5995bb-7b44-4b17-a0a5-123e5ece672e
+2021-08-04 11:47:41:423 [BaseDriver] Using local app '/Users/nasar/Downloads/Appium_Andriod_Automation/src/main/java/General-Store.apk'
+2021-08-04 11:47:41:423 [UiAutomator2] Checking whether app is actually present
+2021-08-04 11:47:41:424 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2021-08-04 11:47:41:426 [UiAutomator2] Deleting UiAutomator2 session
+2021-08-04 11:47:41:426 [BaseDriver] Event 'newSessionStarted' logged at 1628057861426 (11:47:41 GMT+0530 (India Standard Time))
+2021-08-04 11:47:41:427 [W3C] Encountered internal error running command: Error: Could not find 'adb' in PATH. Please set the ANDROID_HOME or ANDROID_SDK_ROOT environment variables to the correct Android SDK root directory path.
+2021-08-04 11:47:41:428 [W3C]     at ADB.getBinaryFromPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:140:11)
+2021-08-04 11:47:41:428 [W3C]     at ADB.getSdkBinaryPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:40:10)
+2021-08-04 11:47:41:428 [W3C]     at ADB.getAdbWithCorrectAdbPath (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/adb-commands.js:35:26)
+2021-08-04 11:47:41:428 [W3C]     at Function.createADB (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:67:3)
+2021-08-04 11:47:41:428 [W3C]     at Object.createBaseADB (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:71:10)
+2021-08-04 11:47:41:428 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:168:15)
+2021-08-04 11:47:41:429 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:290:26)
+2021-08-04 11:47:41:429 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:212:7)
+2021-08-04 11:47:41:429 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2021-08-04 11:47:41:430 [W3C] Destroying socket connection
+2021-08-04 11:47:41:433 [HTTP] <-- POST /wd/hub/session 500 25 ms - 791
+2021-08-04 11:47:41:433 [HTTP] 
+2021-08-04 11:47:41:469 [Appium] Received SIGTERM - shutting down
+2021-08-04 11:47:41:477 [Appium] There are no active sessions for cleanup
+2021-08-04 11:47:41:486 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:787:11)
+    at Socket._write (net.js:799:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:102:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:387:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-08-04 11:47:41:491 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:787:11)
+    at Socket._write (net.js:799:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:102:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:387:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:398:5)

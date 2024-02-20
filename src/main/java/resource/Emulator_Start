@@ -1,0 +1,3 @@
+#!/bin/zsh
+cd /Users/nasar/Library/Android/sdk/emulator
+./emulator -avd Device_Nasar_Emulator
